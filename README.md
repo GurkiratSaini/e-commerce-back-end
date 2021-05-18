@@ -27,7 +27,17 @@
   To install this application, clone the repository and run `npm install` to install all dependencies. Once done, run `npm start` to run the express app and build the database. You are free to seed the database as you wish, but a seeds file is included in the application. To run the seeds file, run `npm run seed` from the command line/terminal. For making API calls, feel free to use any platform you feel comfortable using.
 
   ## Usage
-  This application simulates a back-end for an e-commerce company. The intended purpose for this application is to demonstrate the Sequelize and Express packages to build and access back-end databases by using HTTP CRUD requests.
+  The API has been deployed to Heroku and is pre-seeded to see requests in action! The API supports the following requests for each end-point: <br>
+  - `GET All entries`<br>
+  - `GET One entry by requesting id number at the end of url`<br>
+  - `POST new entry by sending data in request body`<br>
+  - `PUT request by sending id number as parameter and data in body`<br>
+  - `DELETE request by sending id number as a parameter`<br>
+
+  The following API endpoints are available for CRUD operations: <br>
+  - `/api/categories`
+  - `/api/products`
+  - `/api/tags`
 
   ## Contributing
   Fork repository and make a new pull request.
