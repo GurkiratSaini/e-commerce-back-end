@@ -19,9 +19,9 @@
   - [License](#license)
 
   ## Preview
-  ![In Insomnia Core, the user tests “GET tags,” “GET Categories,” and “GET All Products.”.](./Assets/13-orm-homework-demo-01.gif)
-  ![In Insomnia Core, the user tests “GET tag by id,” “GET Category by ID,” and “GET One Product.”](./Assets/13-orm-homework-demo-02.gif)
-  ![In Insomnia Core, the user tests “DELETE Category by ID,” “CREATE Category,” and “UPDATE Category.”](./Assets/13-orm-homework-demo-03.gif)
+  ![In Insomnia Core, the user tests “GET tags,” “GET Categories,” and “GET All Products.”.](./assets/13-orm-homework-demo-01.gif)
+  ![In Insomnia Core, the user tests “GET tag by id,” “GET Category by ID,” and “GET One Product.”](./assets/13-orm-homework-demo-02.gif)
+  ![In Insomnia Core, the user tests “DELETE Category by ID,” “CREATE Category,” and “UPDATE Category.”](./assets/13-orm-homework-demo-03.gif)
 
   ## Installation
   To install this application, clone the repository and run `npm install` to install all dependencies. Once done, run `npm start` to run the express app and build the database. You are free to seed the database as you wish, but a seeds file is included in the application. To run the seeds file, run `npm run seed` from the command line/terminal. For making API calls, feel free to use any platform you feel comfortable using.
